@@ -1,0 +1,65 @@
+import React, { useState } from 'react'
+import QuestionBank from './ArrayData'
+import QuestionComponent from './QuestionComponent'
+import TryAgain from './TryAgain'
+
+
+
+const MainComponent = () => {
+      let [QuestionCount,setQuestionCount]=useState(0);
+      let [tryPageHide,setTryPageHide]=useState(false);
+      let [scoreCount,setScoreCount]=useState(0);
+      let [welcomePageHide,setWelcomePageHide]=useState(true);
+      let [change,setChange]=useState()
+
+    const QuestionTrue=(event)=>{
+     let value = event.target.value
+      setChange(value)
+    }
+    const goingToNext=()=>{
+      if (change==null){
+        setChange('must have to write something')}
+      else{
+        setWelcomePageHide(false)}
+    }
+
+      const PitchureChange=(CorAnswer)=>{
+      if (CorAnswer==true){
+        setScoreCount(scoreCount+1);
+      }else{
+        alert('not correct')
+      }
+      const NextData = QuestionCount+1
+      if (NextData<QuestionBank.length) {
+        console.log(NextData);
+        setQuestionCount(NextData) 
+
+      }else{
+        setTryPageHide(true)
+      }}
+return (<>
+      
+{welcomePageHide? (  <div className="BorderBox welcomePage">
+      <h1 className='animalQGame'><strong> Welcome To Animal Quiz Game </strong> </h1>
+      <h2 className='EnterYname'>Enter your name </h2>
+      <h6>{change}</h6>
+      <input type="text" name="text" id="" placeholder='your name' onChange={QuestionTrue} />
+      <button  type="submit" className="btn btn-dark" onClick={goingToNext}>Let's play</button> 
+      </div> ):
+
+
+<>
+{ tryPageHide?  (<TryAgain
+                  scoreCount={scoreCount}
+                  />) 
+
+                :(<QuestionComponent 
+                  QuestionCount={QuestionCount}
+                  PitchureChange={PitchureChange}
+                />)
+
+}
+</>
+}
+</>)}
+export default MainComponent;
