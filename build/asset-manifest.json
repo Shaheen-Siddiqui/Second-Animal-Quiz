@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Second-Animal-Quiz/static/css/main.b74fa463.css",
+    "main.js": "/Second-Animal-Quiz/static/js/main.0267b9ee.js",
+    "index.html": "/Second-Animal-Quiz/index.html",
+    "main.b74fa463.css.map": "/Second-Animal-Quiz/static/css/main.b74fa463.css.map",
+    "main.0267b9ee.js.map": "/Second-Animal-Quiz/static/js/main.0267b9ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b74fa463.css",
+    "static/js/main.0267b9ee.js"
+  ]
+}
