@@ -55,7 +55,6 @@ return (<>
                   scoreCount={scoreCount}
                   setQuestionCount={setQuestionCount}
                   QuestionCount={QuestionCount}
-                  // NextData={NextData}
                   />) 
 
                 :(<QuestionComponent 
