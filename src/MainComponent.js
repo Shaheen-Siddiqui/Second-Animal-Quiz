@@ -46,7 +46,7 @@ return (<>
       <h2 className='EnterYname'>Enter your name </h2>
       <h5><strong>{change}</strong> </h5>
       <input type="text" name="text" id="" placeholder='your name' onChange={QuestionTrue} />
-      <button  type="submit" className="btn btn-dark" onClick={goingToNext}>Let's play</button> 
+      <button  type="submit" className="btn btn-dark letsPlatBtn" onClick={goingToNext}>Let's play</button> 
       </div> ):
 
 

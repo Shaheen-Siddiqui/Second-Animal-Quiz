@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body{
   background-image: url(https://www.publicdomainpictures.net/pictures/210000/t2/orange-wood-texture-wallpaper.jpg);
   font-family: 'Roboto Slab', serif;
@@ -18,13 +19,54 @@ h5{
   margin-top: 7rem;
 }
 .backImage{
-height: 100vh;
-width: 100wh;
 display: flex;
 justify-content: center;
 align-items: center;
 flex-direction: column;
 }
+
+.btn-fild{
+  width: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  /* border: 2px solid green;  */
+}
+@media (max-width:320px){
+  .ImgStyle{
+    margin-left: 3rem;
+    width: 5rem;
+  }
+  .btn-fild{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-display: column;
+    flex-wrap: wrap;
+  }
+
+  .chosCurAns{
+    margin-left: 3rem;
+  }
+}
+
+@media (max-width:425px){
+  
+.btn-fild{
+  display: flex;
+  flex-wrap: wrap;
+  width: 19rem;
+}
+}
+
+
+
+
+
+
+
+
 .BorderBox{
   width: 50rem;
   height: 20rem;
@@ -43,15 +85,9 @@ flex-direction: column;
   height: 21rem;
   width: 30rem;
 }
-.btn-fild{
-  width: 40rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 3rem;
-}
-.btn{
-margin: 1rem;
+
+.BtnTogether{
+margin:  1rem;
 }
 /* try again page */
 .TryagainBox{
@@ -66,112 +102,77 @@ margin: 1rem;
   align-items: center;
 }
 
+
 /* MEDIA QUERY OF FIRST PAGE */
-@media (max-width:1024px) {
+
+
+@media screen and (max-width:1024px) {
+  
   .welcomePage{
     margin-left: 7rem;
     margin-top: 4rem;
   }
 }
-@media (max-width:768px) {
+@media screen and (max-width:768px) {
   .welcomePage{
     margin-left: 4rem;
   }
 }
-@media (max-width:375px) {
+@media screen and (max-width:375px) {
   .welcomePage{
     margin-left: 2rem;
   }
 }
-@media (max-width:320px) {
+@media screen and (max-width:320px) {
   .welcomePage{
     margin-left: -0.0rem;
   }
+  .backImage{
+    /* border: 2px solid black; */
+    /* width: 3rem; */
+  }
+
+  h4{
+    text-align: center;
+  }
 }
-@media (max-width:768px) {
+@media screen and (max-width:768px) {
   .BorderBox{
     width: 40rem;
   }
 }
-@media (max-width:425px) {
+@media screen and (max-width:425px) {
+  html{
+    font-size: 100%;
+  }
   .BorderBox{
     width: 20rem;
 
   }
   .animalQGame{
-    font-size: 1.5rem;
     text-align: center;
-  }
-  .EnterYname{
-    font-size: 1.3rem;
-  }
-  .ImgStyle{
-    width: 23rem;
-    margin-left: 7rem;
-  }
-  .btn-fild{
-    margin-left: 7rem;
-    width: 30rem;
-    /* border: 1px solid; */
   }
 
   h4{
     margin-left: 7rem;
     text-align: center;
   }
-  .btn{
+  .letsPlatBtn{
     width: 7rem;
 
   }
 }
-@media (max-width:320px) {
-  
-  .ImgStyle{
-    margin-left: 11rem;
-  }
-  .btn-fild{
-    margin-left: 10rem;
-  }
-
-  h4{
-    text-align: center;
-  }
-}
 
 /* MEDIA QUERY OF tyragain page */
-@media (max-width:1024px) {
-  .TryagainBox{
-    margin-left:7rem;
-  }
+@media screen and (max-width:1024px) {
+ 
 }
-@media (max-width:768px) {
-  .TryagainBox{
-    width: 40rem;
-    margin-left: 4rem;
-  }
+@media screen and (max-width:768px) {
+ 
 }
-@media (max-width:425px) {
-  .TryagainBox{
-    margin-left: 1rem;
-    width:25rem;
-  }
-  .playaGain{
-    margin-left: 1rem !important;
-  }
+@media screen and (max-width:425px) {
+ 
+}
+@media screen and (max-width:375px) {
   
-}
-@media (max-width:375px) {
-  .TryagainBox{
-    width: 20rem;
-    margin-left: 2rem;
-    margin-top: .5rem;
-
-  }
-  .Chances{
-    text-align: center;}}
-
-@media (max-width:320px) {
-  .TryagainBox{
-    margin-left: 1rem;
-    width: 18rem;}
 }
