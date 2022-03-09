@@ -2,9 +2,7 @@ import React from 'react';
 import QuestionBank from './ArrayData';
 
 const QuestionComponent = ({QuestionCount,PitchureChange,showAlert}) => {
-
   return (<>
-
              <div className='backImage'>
               <h1><span>Question {QuestionCount} /</span> {QuestionBank.length} </h1>
                <h4>{showAlert}</h4>
