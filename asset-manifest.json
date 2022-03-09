@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Second-Animal-Quiz/static/css/main.b74fa463.css",
-    "main.js": "/Second-Animal-Quiz/static/js/main.0267b9ee.js",
-    "index.html": "/Second-Animal-Quiz/index.html",
-    "main.b74fa463.css.map": "/Second-Animal-Quiz/static/css/main.b74fa463.css.map",
-    "main.0267b9ee.js.map": "/Second-Animal-Quiz/static/js/main.0267b9ee.js.map"
+    "main.css": "/static/css/main.b74fa463.css",
+    "main.js": "/static/js/main.9155834a.js",
+    "index.html": "/index.html",
+    "main.b74fa463.css.map": "/static/css/main.b74fa463.css.map",
+    "main.9155834a.js.map": "/static/js/main.9155834a.js.map"
   },
   "entrypoints": [
     "static/css/main.b74fa463.css",
-    "static/js/main.0267b9ee.js"
+    "static/js/main.9155834a.js"
   ]
 }
