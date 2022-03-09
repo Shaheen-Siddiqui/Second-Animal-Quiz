@@ -1,9 +1,10 @@
 import React from 'react';
 import QuestionBank from './ArrayData';
+import {Link} from 'react-router-dom'
 
 
+const TryAgain = ({scoreCount,setQuestionCount,NextData,QuestionCount}) => {
 
-const TryAgain = ({scoreCount}) => {
   return (
     <div>
 <div className="TryagainBox">
