@@ -104,26 +104,50 @@ margin:  1rem;
     margin-left: 7rem;
     margin-top: 4rem;
   }
+  .TryagainBox{
+    margin-left: 7rem;
+  }
 }
 @media screen and (max-width:768px) {
   .welcomePage{
     margin-left: 4rem;
+  }
+
+  .TryagainBox{
+    margin-left: 3rem;
+    max-width: 42rem;
   }
 }
 @media screen and (max-width:375px) {
   .welcomePage{
     margin-left: 2rem;
   }
+  .playaGain{
+    margin-left: -1rem;
+  }
 }
 @media screen and (max-width:320px) {
   .welcomePage{
     margin-left: -0.0rem;
   }
-
+  .TryagainBox{
+    width: 20rem;
+    height: 20rem;
+    border: 5px solid white;
+    margin-top: 1rem;
+    margin-left: 0.0rem;
+  }
+  .Chances{
+    text-align: center;
+  }
+.playaGain{
+  margin-left: 0.0rem;
+}
   h4{
     text-align: center;
   }
 }
+
 @media screen and (max-width:768px) {
   .BorderBox{
     width: 40rem;
@@ -141,6 +165,10 @@ margin:  1rem;
     text-align: center;
   }
 
+  .TryagainBox{
+    margin-left: -1rem;
+    max-width: 27.9rem;
+  }
   h4{
     margin-left: 7rem;
     text-align: center;
