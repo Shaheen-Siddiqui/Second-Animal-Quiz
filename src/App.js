@@ -7,12 +7,10 @@ const App = () => {
   return (
     <div>
 
-<QuestionComponent/>
-
-    {/* <Routes>
-     <Route  path="/" element={ <MainComponent/>}/>
+    <Routes>
+     <Route  path="/Second-Animal-Quiz" element={ <MainComponent/>}/>
      <Route path="redirect" element={ <MainComponent/> } />
-    </Routes> */}
+    </Routes>
     </div>
   )
 }
