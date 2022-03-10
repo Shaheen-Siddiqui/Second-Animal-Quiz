@@ -17,54 +17,54 @@ const QuestionBank=[
         {option:'Frog',CorAnswer:false },
     ],
 },
-// {
-//     AnimalPic:'https://thumbs.dreamstime.com/b/golden-retriever-dog-21668976.jpg',
-//     buttonOptions:[
-//         {option:'Mouse',CorAnswer:false },
-//         {option:'Tiger',CorAnswer:false },
-//         {option:'Duck',CorAnswer:false },
-//         {option:'Dog',CorAnswer:true },
+{
+    AnimalPic:'https://thumbs.dreamstime.com/b/golden-retriever-dog-21668976.jpg',
+    buttonOptions:[
+        {option:'Mouse',CorAnswer:false },
+        {option:'Tiger',CorAnswer:false },
+        {option:'Duck',CorAnswer:false },
+        {option:'Dog',CorAnswer:true },
 
-//     ],
-// },
+    ],
+},
 
 
-// {
-//     AnimalPic:'https://c4.wallpaperflare.com/wallpaper/678/900/901/animal-images-baby-animals-cool-pictures-cute-animals-wallpaper-preview.jpg',
-//     buttonOptions:[
-//         {option:'Ant',CorAnswer:false },
-//         {option:'Sheep',CorAnswer:false },
-//         {option:'Panda',CorAnswer:true },
-//         {option:'Cat',CorAnswer:false },
-//     ],
-// },
+{
+    AnimalPic:'https://c4.wallpaperflare.com/wallpaper/678/900/901/animal-images-baby-animals-cool-pictures-cute-animals-wallpaper-preview.jpg',
+    buttonOptions:[
+        {option:'Ant',CorAnswer:false },
+        {option:'Sheep',CorAnswer:false },
+        {option:'Panda',CorAnswer:true },
+        {option:'Cat',CorAnswer:false },
+    ],
+},
 
-// {
-//     AnimalPic:'https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
-//     buttonOptions:[
-//         {option:'Rabbit',CorAnswer:false },
-//         {option:'Lion',CorAnswer:true },
-//         {option:'Turtle',CorAnswer:false },
-//         {option:'Rooster',CorAnswer:false },
-//     ],
-// },
-// {
-//     AnimalPic:'https://cites.org/sites/default/files/pictures/African.jpg',
-//     buttonOptions:[
-//         {option:'Ant',CorAnswer:false },
-//         {option:'Lion',CorAnswer:false },
-//         {option:'Elephant',CorAnswer:true },
-//         {option:'Kitten',CorAnswer:false },
-//     ],
-// }
+{
+    AnimalPic:'https://images.pexels.com/photos/247502/pexels-photo-247502.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
+    buttonOptions:[
+        {option:'Rabbit',CorAnswer:false },
+        {option:'Lion',CorAnswer:true },
+        {option:'Turtle',CorAnswer:false },
+        {option:'Rooster',CorAnswer:false },
+    ],
+},
+{
+    AnimalPic:'https://cites.org/sites/default/files/pictures/African.jpg',
+    buttonOptions:[
+        {option:'Ant',CorAnswer:false },
+        {option:'Lion',CorAnswer:false },
+        {option:'Elephant',CorAnswer:true },
+        {option:'Kitten',CorAnswer:false },
+    ],
+}
 
-// ,{
-//     AnimalPic:'https://tailandfur.com/wp-content/uploads/2015/06/20-Beautiful-Camel-Pictures-10.jpg',
-//     buttonOptions:[
-//         {option:'Frog',CorAnswer:false },
-//         {option:'Lion',CorAnswer:false },
-//         {option:'Camel',CorAnswer:true },
-//         {option:'Zebra',CorAnswer:false },]
-//     },
+,{
+    AnimalPic:'https://tailandfur.com/wp-content/uploads/2015/06/20-Beautiful-Camel-Pictures-10.jpg',
+    buttonOptions:[
+        {option:'Frog',CorAnswer:false },
+        {option:'Lion',CorAnswer:false },
+        {option:'Camel',CorAnswer:true },
+        {option:'Zebra',CorAnswer:false },]
+    },
 ]
 export default QuestionBank;
