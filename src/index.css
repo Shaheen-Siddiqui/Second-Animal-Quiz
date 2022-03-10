@@ -8,10 +8,9 @@
 
 body{
   background-image: url(https://www.publicdomainpictures.net/pictures/210000/t2/orange-wood-texture-wallpaper.jpg);
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto Slab', serif;}
 
-}
-h5{
+  h5{
   background-color: aliceblue !important ;
 }
 .welcomePage{
@@ -31,12 +30,13 @@ flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 3rem;
-  /* border: 2px solid green;  */
 }
 @media (max-width:320px){
   .ImgStyle{
     margin-left: 3rem;
-    width: 5rem;
+    max-width: 20rem;
+    max-height: 15rem;
+    margin-right: 3rem;
   }
   .btn-fild{
     display: flex;
@@ -47,7 +47,7 @@ flex-direction: column;
   }
 
   .chosCurAns{
-    margin-left: 3rem;
+    margin-left: 2rem;
   }
 }
 
@@ -59,12 +59,6 @@ flex-direction: column;
   width: 19rem;
 }
 }
-
-
-
-
-
-
 
 
 .BorderBox{
@@ -80,7 +74,6 @@ flex-direction: column;
   width: 20rem;
   margin-top: 3rem;
 }
-/* sec component */
 .ImgStyle{
   height: 21rem;
   width: 30rem;
@@ -89,7 +82,6 @@ flex-direction: column;
 .BtnTogether{
 margin:  1rem;
 }
-/* try again page */
 .TryagainBox{
   width: 50rem;
   height: 20rem;
@@ -127,10 +119,6 @@ margin:  1rem;
   .welcomePage{
     margin-left: -0.0rem;
   }
-  .backImage{
-    /* border: 2px solid black; */
-    /* width: 3rem; */
-  }
 
   h4{
     text-align: center;
@@ -163,16 +151,3 @@ margin:  1rem;
   }
 }
 
-/* MEDIA QUERY OF tyragain page */
-@media screen and (max-width:1024px) {
- 
-}
-@media screen and (max-width:768px) {
- 
-}
-@media screen and (max-width:425px) {
- 
-}
-@media screen and (max-width:375px) {
-  
-}
