@@ -8,15 +8,15 @@ const QuestionBank=[
         {option:'Peacock',CorAnswer:true },
     ],
 },
-// {
-//     AnimalPic:'https://pyxis.nymag.com/v1/imgs/21e/c3b/608cb53f60057c75f6d40b6ddf872e09e4-04-squirrel-nut.2x.rhorizontal.w710.jpg',
-//     buttonOptions:[
-//         {option:'Squirrel',CorAnswer:true },
-//         {option:'Bull',CorAnswer:false },
-//         {option:'Donkey',CorAnswer:false },
-//         {option:'Frog',CorAnswer:false },
-//     ],
-// },
+{
+    AnimalPic:'https://pyxis.nymag.com/v1/imgs/21e/c3b/608cb53f60057c75f6d40b6ddf872e09e4-04-squirrel-nut.2x.rhorizontal.w710.jpg',
+    buttonOptions:[
+        {option:'Squirrel',CorAnswer:true },
+        {option:'Bull',CorAnswer:false },
+        {option:'Donkey',CorAnswer:false },
+        {option:'Frog',CorAnswer:false },
+    ],
+},
 // {
 //     AnimalPic:'https://thumbs.dreamstime.com/b/golden-retriever-dog-21668976.jpg',
 //     buttonOptions:[
